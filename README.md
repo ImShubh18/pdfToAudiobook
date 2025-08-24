@@ -34,11 +34,11 @@ This full-stack web application lets users upload a PDF, choose page ranges, cus
 ⚡ Uvicorn – ASGI server
 
 ⚙️ Installation & Setup
+
 🔹 Prerequisites
 
-Python 3.8+
-
-Node.js + npm
+ Python 3.8+
+ Node.js + npm
 
 🔹 Backend Setup
 cd backend
@@ -46,7 +46,9 @@ python -m venv venv
 # Activate venv
 # On Windows:
 venv\Scripts\activate
+
 # On macOS/Linux:
+
 source venv/bin/activate
 
 pip install -r requirements.txt
