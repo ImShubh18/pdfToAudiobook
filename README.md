@@ -1,94 +1,98 @@
-PDF to Audiobook Converter 📖🎧
-This is a full-stack web application that converts PDF documents into an audiobook format. Users can upload a PDF, select a page range, and customize the audio output (gender and speed) to create a downloadable MP3 file.
+📖🎧 PDF to Audiobook Converter
 
-🚀 Features
-PDF Upload: Easily upload PDF files to the application.
+Turn your PDFs into audiobooks effortlessly!
+This full-stack web application lets users upload a PDF, choose page ranges, customize voice & speed, and generate a downloadable MP3 audiobook with real-time playback.
 
-Customizable Conversion: Specify a range of pages to convert, from a single page to the entire document.
+✨ Features
 
-Voice Customization: Adjust the text-to-speech voice by choosing between male and female tones and setting a custom speaking speed.
+✅ PDF Upload – Easily upload PDF files.
 
-Real-time Playback: Listen to the generated audiobook directly in the browser before downloading it.
+✅ Customizable Conversion – Select specific pages or the entire document.
 
-Simple Interface: The application features a clean, intuitive, and responsive user interface.
+✅ Voice Customization – Choose between 🎙️ male or 🎙️ female voices + adjust speaking speed.
 
-🛠️ Technology Stack
-Frontend
-React: Used for building the user interface and managing component state.
+✅ Real-time Playback – Preview audio in the browser before downloading.
 
-Axios: A library for handling API requests from the frontend to the backend.
+✅ Responsive UI – Clean and simple design for a smooth user experience.
 
-Backend
-FastAPI: A modern, high-performance web framework for the API, built with Python.
+🛠️ Tech Stack
 
-PyPDF2: A Python library for extracting text from PDF documents.
+🎨 Frontend
 
-gTTS (Google Text-to-Speech): A Python library that converts text into audio using Google's TTS API.
+⚛️ React – Component-based UI
 
-Uvicorn: An ASGI server to serve the FastAPI application.
+🌐 Axios – API requests
+
+⚡ Backend
+
+🚀 FastAPI – High-performance Python web framework
+
+📄 PyPDF2 – Extract text from PDFs
+
+🔊 gTTS (Google TTS) – Convert text into speech
+
+⚡ Uvicorn – ASGI server
 
 ⚙️ Installation & Setup
-Prerequisites
-Make sure you have Python 3.8+ and Node.js with npm installed on your system.
 
-Backend
-Navigate to the backend directory.
+🔹 Prerequisites
 
-Bash
+ Python 3.8+
+ Node.js + npm
 
+🔹 Backend Setup
 cd backend
-Create and activate a virtual environment to manage dependencies.
-
-Bash
-
 python -m venv venv
-# On Windows
+# Activate venv
+# On Windows:
 venv\Scripts\activate
-# On macOS/Linux
-source venv/bin/activate
-Install the required Python packages from the requirements.txt file.
 
-Bash
+# On macOS/Linux:
+
+source venv/bin/activate
 
 pip install -r requirements.txt
-Run the backend server.
-
-Bash
-
 uvicorn main:app --reload
-The server will be available at http://127.0.0.1:8000.
 
-Frontend
-Open a new terminal and go to the frontend directory.
 
-Bash
+👉 Backend runs at: http://127.0.0.1:8000
 
+🔹 Frontend Setup
 cd frontend
-Install the necessary npm packages.
-
-Bash
-
 npm install
-Start the React development server.
-
-Bash
-
 npm run dev
-The frontend application will run on http://localhost:5173.
+
+
+👉 Frontend runs at: http://localhost:5173
 
 👨‍💻 Usage
-Ensure both the backend and frontend servers are running.
 
-Open your web browser and go to http://localhost:5173.
+Run both backend & frontend servers.
 
-Use the form to upload a PDF file from your computer.
+Open 👉 http://localhost:5173 in your browser.
 
-Set your desired page range, voice gender, and speed.
+Upload a PDF file.
 
-Click the "Convert" button. Once the conversion is complete, an audio player will appear, allowing you to listen to your new audiobook.
+Select page range, voice gender, and speed.
 
+Click Convert 🎉
 
+🎧 Preview audio → 💾 Download MP3.
 
+📌 Demo Flow
 
+Upload PDF →
 
+Set Options →
 
+Convert →
+
+Listen in Browser / Download
+
+🚀 Future Enhancements
+
+🌍 Multi-language TTS support
+
+🎵 Background music option
+
+📱 Mobile app version
