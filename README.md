@@ -6,12 +6,17 @@ This full-stack web application lets users upload a PDF, choose page ranges, cus
 ✨ Features
 
 ✅ PDF Upload – Easily upload PDF files.
+
 ✅ Customizable Conversion – Select specific pages or the entire document.
+
 ✅ Voice Customization – Choose between 🎙️ male or 🎙️ female voices + adjust speaking speed.
+
 ✅ Real-time Playback – Preview audio in the browser before downloading.
+
 ✅ Responsive UI – Clean and simple design for a smooth user experience.
 
 🛠️ Tech Stack
+
 🎨 Frontend
 
 ⚛️ React – Component-based UI
